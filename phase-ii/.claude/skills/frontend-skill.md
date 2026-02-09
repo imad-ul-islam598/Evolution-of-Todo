@@ -7,9 +7,24 @@ description: Build frontend interfaces by creating pages, components, layouts, a
 
 ## Instructions
 
-1. **Pages**
-   - Define routes and pages
-   - Organize by feature
+1. **Project Setup**
+
+- Use **Next.js App Router**
+- Always use **TypeScript**
+- Enable **Tailwind CSS**
+- Follow modern Next.js conventions
+
+**Standard frontend app creation command:**
+
+```bash
+npx create-next-app@latest frontend \
+  --typescript \
+  --tailwind \
+  --eslint \
+  --app \
+  --src-dir \
+  --import-alias "@/*"
+```
 
 2. **Components**
    - Build reusable components
